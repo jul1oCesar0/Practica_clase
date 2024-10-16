@@ -33,4 +33,6 @@ jobs:
     - name: Instalar
       run: |
         cd .github/workflows
-        ls -al  
+        ls -al 
+        chmod +x script.sh
+        ls -al 
